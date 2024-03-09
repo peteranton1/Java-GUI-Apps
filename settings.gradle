@@ -13,4 +13,5 @@ plugins {
 rootProject.name = 'Java-GUI-Apps'
 include('app', 'list', 'utilities')
 include 'ClockGUI'
+include 'SnakeGUI'
 
