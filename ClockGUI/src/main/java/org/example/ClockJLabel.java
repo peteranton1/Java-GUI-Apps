@@ -13,7 +13,7 @@ public class ClockJLabel {
   ClockJLabel(int size, String pattern) {
     simpleDateFormat = new SimpleDateFormat(pattern);
     jLabel = new JLabel();
-    jLabel.setFont(new Font("Verdena", Font.PLAIN, size));
+    jLabel.setFont(new Font("SansSerif", Font.PLAIN, size));
     jLabel.setForeground(new Color(0x00FF00));
     jLabel.setBackground(Color.blue);
     jLabel.setOpaque(true);
